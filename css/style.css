@@ -103,3 +103,14 @@ footer {
   font-size: 40px;
 }
 
+/*presontation---------*/
+
+.presentation {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.presentation p {
+  max-width: 700px;
+  margin: 15px auto;
+}
