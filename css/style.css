@@ -114,3 +114,26 @@ footer {
   max-width: 700px;
   margin: 15px auto;
 }
+
+/*intervenants*/
+
+.speakers {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.speaker-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px 0;
+}
+
+.speaker-card {
+  width: 250px;
+  padding: 20px;
+
+  background-color: azure;
+  border: 1px solid black;
+  border-radius: 15px;
+}
