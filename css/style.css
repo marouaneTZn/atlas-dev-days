@@ -139,3 +139,61 @@ footer {
   border: 1px solid black;
   border-radius: 15px;
 }
+
+/*--------programme-----------*/
+
+.programme-intro {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.programme-intro h1 {
+  font-size: 45px;
+}
+
+.programme-intro p {
+  font-size: 18px;
+}
+
+.day {
+  max-width: 900px;
+  margin: 0 auto 50px;
+  padding: 0 20px;
+}
+
+.day h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.talk {
+  display: flex;
+  gap: 30px;
+
+  margin-bottom: 20px;
+  padding: 20px;
+
+  background-color: azure;
+
+  border: 1px solid black;
+  border-radius: 15px;
+
+  align-items: center;
+}
+
+.time {
+  font-size: 20px;
+  font-weight: bold;
+  min-width: 60px;
+  
+}
+
+.talk h3 {
+  margin-top: 0;
+  margin-left: 70px;
+}
+
+.talk p {
+  margin: 5px 0;
+  margin-left: 70px;
+}
