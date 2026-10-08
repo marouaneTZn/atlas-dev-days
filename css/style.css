@@ -260,3 +260,95 @@ footer {
 .social-link:hover {
   background-color: lightgray;
 }
+
+/*------------inscreption-----------*/
+
+.inscription-intro {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.inscription-intro h1 {
+  font-size: 45px;
+}
+
+.inscription-intro p {
+  font-size: 18px;
+}
+
+.inscription-content {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 20px;
+}
+
+form {
+  width: 500px;
+  padding: 30px;
+  background-color: azure;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input,
+select,
+textarea {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+fieldset {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+fieldset label {
+  display: block;
+  margin: 10px 0;
+}
+
+.consent {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 12px 25px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: lightgray;
+}
+
+.practical-info {
+  width: 300px;
+  padding: 25px;
+  background-color: azure;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.practical-info h2 {
+  margin-top: 0;
+}
