@@ -8,13 +8,19 @@
 body {
   margin: 0%;
   font-family: 'JetBrains Mono';
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
+  position: sticky;
+  top: 0;
   background-color: var(--primary-color);
   padding: 10px 30px;
   box-shadow: 0 0px 15px rgba(0, 0, 0, 0.25);
   border-radius: 0 0 20px 20px;
+  
 }
 
 footer {
@@ -25,12 +31,14 @@ footer {
   text-align: center;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -47,6 +55,7 @@ footer {
   list-style: none;
   margin: 0;
   padding: 0;
+  flex-wrap: wrap;
 }
 
 .nav-links a {
@@ -128,8 +137,10 @@ footer {
 /*intervenants*/
 
 .speakers {
+  display: flex;
   text-align: center;
   padding: 40px 20px;
+  flex-wrap: wrap;
 }
 
 .speaker-list {
